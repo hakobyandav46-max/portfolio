@@ -1,0 +1,10 @@
+.about {
+    text-align: center;
+    background-color: #e3e1e1;
+}
+
+.about__container {
+    margin-top: 100px;
+    display: grid;
+    gap: 50px;
+}

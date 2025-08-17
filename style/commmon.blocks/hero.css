@@ -1,0 +1,26 @@
+.hero {
+    margin-top: 40px;
+}
+
+.hero__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__title {
+    grid-area: name;
+}
+
+.lang-button {
+    background: none;
+    border: none;
+    margin-bottom: 100px;
+}
+
+.hero__lang_ru {
+    color: var(--light-color);
+}
+
+.hero__lang_eng {
+    color: var(--dark-color);
+}

@@ -1,0 +1,15 @@
+.header {
+    border-bottom: 1px solid black;
+}
+
+.header__lines {
+    z-index: 100;
+}
+
+.hero__text {
+    grid-area: text;
+}
+
+.hero__lang-box {
+    display: none;
+}

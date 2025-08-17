@@ -1,0 +1,28 @@
+.Skills {
+    padding-bottom: 50px;
+}
+
+.skills__container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.skills__text {
+    margin-bottom: 60px;
+}
+
+.skills__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: space-between;
+}
+
+.skills__item-img {
+    width: 59px;
+    height: 90px;
+}
+
+.app {
+    width: 90px;
+    height: 90px;
+}

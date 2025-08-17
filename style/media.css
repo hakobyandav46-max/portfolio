@@ -1,0 +1,50 @@
+@media (min-width: 576px) {
+    .header {
+        border-bottom: 1px solid gray;
+    }
+
+    .nav {
+        position: static;
+        background-color: white;
+    }
+
+    .nav__list {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .nav__link {
+        font-size: 18px;
+    }
+
+    .header__lines {
+        display: none;
+    }
+
+    .hero {
+        margin-top: 65px;
+    }
+
+    .hero__lang-box {
+        display: block;
+    }
+
+    .nav__lang-box {
+        display: none;
+    }
+
+    .contacts__icons {
+        gap: 61px;
+    }
+
+    .hero__head {
+        display: contents;
+    }
+
+    .portfolio__list-img {
+        width: 100%;
+        height: 508px;
+    }
+}

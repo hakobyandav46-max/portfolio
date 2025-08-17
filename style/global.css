@@ -1,0 +1,31 @@
+:root {
+    --light-color: #828282;
+    --dark-color: #000;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Roboto";
+    scroll-behavior: smooth;
+}
+
+.scroll-lock {
+    overflow: hidden;
+}
+
+html {
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

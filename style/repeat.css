@@ -1,0 +1,26 @@
+.title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 34px;
+    color: var(--dark-color);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--dark-color);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 945px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.lang {
+    transform: rotate(90deg);
+
+}
